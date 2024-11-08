@@ -94,17 +94,29 @@ box-sizing:border-box;
     align-items: center;
     box-sizing:border-box;
 }
-.img{
+.card1 .img{
     height: 50%;
     width: 12%;
-    background: yellowgreen;
+    border:2px solid red;
     margin: 0 11%;
     border-radius: 50%;
-    background: url(./trophy.jpg) no-repeat ;
+    background: url(./trophy.jpg) no-repeat 50%;
     background-size: 10px;
 
     
 }
+.card1 .img2{
+    height: 50%;
+    width: 12%;
+    border:2px solid red;
+    margin: 0 11%;
+    border-radius: 50%;
+    background: url(./star.png) no-repeat 50%;
+    background-size: 10px;
+
+    
+}
+
 .card1 .num1{
     color:red;
     font-size:larger;
@@ -123,7 +135,7 @@ h1{
     color:white;
 }
 h6{
-    margin: 0 13% 0;
+    margin: 0 13% 10px;
     color: white;
     font-size: large;
     font-weight: lighter
@@ -139,8 +151,9 @@ h6{
 
 .num{
     margin:15% 15% 0;
-    margin: 0 13% 0;
+    margin: 0 13% 20px;
     color: white;
     font-size: xx-large;
-    font-weight: bolder
+    font-weight: bolder;
+
 }
