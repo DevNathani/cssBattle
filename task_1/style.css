@@ -19,6 +19,7 @@
     align-self: center;
     width:40vw;
     box-sizing:border-box;
+    border:1px solid black;
 }
 .top{
     width:100%;
