@@ -44,7 +44,7 @@ box-sizing:border-box;
     float:left;
     height:100%;
     width:40%;
-    background-color:white
+    box-sizing:border-box;
 }
 
 .second .right{
@@ -91,6 +91,7 @@ box-sizing:border-box;
     border-radius: 10%;
     display: flex;
     align-items: center;
+    box-sizing:border-box;
 }
 .img{
     height: 50%;
@@ -110,6 +111,7 @@ box-sizing:border-box;
 }
 
 .card1 .num2{
+    box-sizing:border-box;
     color:red;
     
     font-weight: 100;
@@ -117,7 +119,27 @@ box-sizing:border-box;
 
 h1{
     margin: 13% 13% 0;
-    color:red;
-    font-size:larger;
-    font-weight: 600;
+    color:white;
+}
+h6{
+    margin: 0 13% 0;
+    color: white;
+    font-size: large;
+    font-weight: lighter
+}
+
+.small{
+    margin:15% 15% 0;
+    margin: 0 13% 0;
+    color: white;
+    font-size: large;
+    font-weight: lighter
+}
+
+.num{
+    margin:15% 15% 0;
+    margin: 0 13% 0;
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder
 }
