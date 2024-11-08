@@ -25,13 +25,59 @@
     height:60%;
     border-bottom-left-radius:14%;
     background: linear-gradient(200deg, rgba(231,13,60,1) 0%, rgba(167,0,0,1) 100%);
+    box-sizing:border-box;
+}
+
+.back{
+    height:10%;
+    width:100%;
+    display:flex;
+    align-items: center;
+}
+.second{
+height:100%;
+width: 100%;
+
+box-sizing:border-box;
+}
+.second .left{
+    float:left;
+    height:100%;
+    width:40%;
+    background-color:white
+}
+
+.second .right{
+    float:right;
+    height:100%;
+    width:60%;
+   
+    box-sizing:border-box
 
 }
+.right img{
+    height:100%;
+    width:100%
+}
+.back .arrow{
+    height:100%;
+    width:10%;
+   
+    color:white;
+    font-size:xx-large;
+    font-weight: 600;
+    text-align: center;
+    padding:1%;
+    box-sizing: border-box;
+    cursor:pointer
+    
+}
+
 .bottom{
     background-color: white;
     display: flex;
-    flex-flow: column wrap;
-    
+    flex-flow: column;
+    box-sizing:border-box;
     align-items: center;
     height:40%;
     width:100%;
@@ -40,10 +86,38 @@
     background-color: whitesmoke;
     height:30%;
     width:70%;
-    margin:14% 0 0 0;
+    margin:6% 0 0 0;
     box-shadow: 10px 10px 10px 10px rgb(240, 234, 234);
     border-radius: 10%;
     display: flex;
     align-items: center;
 }
+.img{
+    height: 50%;
+    width: 12%;
+    background: yellowgreen;
+    margin: 0 11%;
+    border-radius: 50%;
+    background: url(./trophy.jpg) no-repeat ;
+    background-size: 10px;
 
+    
+}
+.card1 .num1{
+    color:red;
+    font-size:larger;
+    font-weight: 600;
+}
+
+.card1 .num2{
+    color:red;
+    
+    font-weight: 100;
+}
+
+h1{
+    margin: 13% 13% 0;
+    color:red;
+    font-size:larger;
+    font-weight: 600;
+}
